@@ -1,0 +1,22 @@
+=====================================================
+安装拼音和五笔（以下命令需在root下执行）:
+[plain] view plain copy
+print?在CODE上查看代码片派生到我的代码片
+
+    apt-get install ibus-sunpinyin  
+    apt-get install ibus-pinyin  
+    apt-get install fcitx-sunpinyin  
+    apt-get install ibus-table-wubi 
+apt-get install fcitx-ui-classic && apt-get install fcitx-ui-light
+执行完毕后重启系统，在设置->区域和语言->输入源处 可找到：汉语(SunPinyin)，点击添加即可
+
+=====================================================
+在终端中输入：apt-get install open-vm-tools-desktop
+如果开机还是未全屏状态，请按住Ctrl+Alt+Enter进行全屏切换，切换一两次便可进行全屏显示
+=====================================================
+git init 
+git add  document
+git commit -m 'again'
+git remote add origin https://github.com/linxuanmax/msql_to_es.git
+git push -u origin master
+git clone https://github.com/linxuanmax/msql_to_es.git
